@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <body>
+        <form action="test.php">
+            <input type="text" name="txt" />
+            <input type="submit" class="button" name="insert" value="insert" />
+			<input type="submit" class="button" name="select" value="select" />
+        </form>
+
+        <?php
+            function select(){
+               echo "The select function is called.";
+            }
+            function insert(){
+               echo "The insert function is called.";
+            }
+        ?>
